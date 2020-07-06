@@ -17,4 +17,4 @@ from django.urls import include, re_path
 urlpatterns = [
 re_path(r'^', include('polls.urls')),
 ]
-ВЫХОДИТ ОШИБКА , ПРОДОЛЖАЕМ НА 7 СТР
+mistake on 6 str
