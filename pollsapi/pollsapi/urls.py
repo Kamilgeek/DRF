@@ -18,3 +18,4 @@ urlpatterns = [
 re_path(r'^', include('polls.urls')),
 ]
 mistake on 6 str
+you must fix it
