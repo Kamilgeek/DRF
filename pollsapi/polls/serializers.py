@@ -13,3 +13,10 @@ class ChoiceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Choice
         fields = '__all__'
+
+class PollSerializer(serializers.ModelSerializer):
+    choices = ChoiceSerializer(many=True, read_only=True, required=False)
+
+    class Meta:
+        model = Poll
+        fields = '__all__'
